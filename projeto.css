@@ -1,0 +1,129 @@
+.background {
+    background-color: #fff; /* Alterado para fundo branco */
+    height: 60vh;
+    min-height: 100px; /* Ajuste o valor conforme necessário */
+    width: 100%;
+}
+
+.Container-serviços {
+    background-color: #fff; /* Alterado para fundo branco */
+    width: 100%;
+    padding: 100px 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: #000; /* Alterado para texto preto */
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #f9004d; /* Mantido para destacar */
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a {
+    color: #000; /* Alterado para texto preto */
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d; /* Mantido para destaque ao passar o mouse */
+    transform: .4s;
+}
+
+.btn {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.title h2 {
+    color: #000; /* Alterado para texto preto */
+    font-size: 30px;
+    width: 90px;
+    margin: -10px auto;
+    text-align: center;
+    align-items: center;
+}
+
+.Caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+
+.Card {
+    background-image: url('imagem/Blue\ Tosca\ Gradient\ Futuristic\ Technology\ Line\ Background\ Instagram\ Story.png'); 
+    height: 365px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.Card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #030203; /* Mantido para destacar */
+}
+
+h5 {
+    color: #000; /* Alterado para texto preto */
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.button {
+    background-color: #110e0f; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto - branco */
+    text-decoration: none; /* Remove o sublinhado */
+    border: 2px solid transparent; /* Borda transparente */
+    font-weight: bold; /* Negrito */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 15px; /* Borda arredondada */
+    transition: transform .4s; /* Efeito de transição */
+}
+
+.button:hover {
+    transform: scale(1.1); /* Efeito de crescimento ao passar o mouse */
+}
+
+
+.Paragrafo-button {
+    color: #faf4f4; /* Alterado para texto preto */
+    font-size: 19px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button {
+    margin-top: 25px;
+}

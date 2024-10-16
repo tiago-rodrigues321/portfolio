@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background {
+    background-image: url(imagem/Blue_Tosca_Gradient_Futuristic_Technology_Line_Background_Instagram_Story.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8%;
+    width: 100%;
+}
+
+.logo {
+    color: #130101;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: #0c0101;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #f9004d;
+    color: #0a0000;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.main {
+    text-align: center;
+    color: #140101; 
+    margin: 30px;/* Mudar a cor do texto para melhorar a legibilidade */
+}
+
+.main h4 {
+    margin: 10px 0;
+}
+
+.main h1 {
+    margin: 10px 0;
+}
+
+.profile-pic {
+    border-radius: 50%; /* Torna a imagem redonda */
+    width: 160px; /* Ajuste o tamanho da imagem */
+    height: auto;
+}
+
+.container-btn {
+    margin-top: 20px;
+}
+
+.container-btn input[type="email"],
+.container-btn input[type="submit"] {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+.container-btn input[type="email"] {
+    width: 200px; /* Ajuste o tamanho do campo de entrada */
+}
+
+.container-btn input[type="submit"] {
+    background-color: #f9004d;
+    color: #110404;
+    cursor: pointer;
+}
+
+.container-btn input[type="submit"]:hover {
+    background-color: transparent;
+    border: 2px solid #f9004d;
+}
+.topo-do-site .txt-topo-site .btn-social button {
+    width: 40px;
+    height: 40px;
+    border-radius: 300%;
+    border: nome;
+    background-color: rgb(9, 235, 159);
+    font-size: 19px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+
+
+
+}
+
+@media screen and (max-width: 1020px) {
+    .background {
+        height: 100vh; /* Ajuste a altura para dispositivos menores */
+
+
+    .logo {
+        font-size: 20px; /* Diminua o tamanho da fonte para dispositivos menores */
+    }
+
+    .btn {
+        padding: 5px 4px; /* Reduza o padding do botão */
+        font-size: 12px; /* Diminua o tamanho da fonte do botão */
+    }
+
+    .profile-pic {
+        width: 200px; /* Ajuste o tamanho da imagem para dispositivos menores */
+    }
+
+    nav ul li {
+        padding: 10px 15px; /* Ajuste o padding para itens de menu em dispositivos menores */
+    }
+}

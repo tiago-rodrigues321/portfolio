@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.background {
+    background-color: #fff; /* Fundo branco */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 6%;
+    width: 92%;
+}
+
+.logo {
+    color: #080808;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+span {
+    color: #f9004d;
+}
+
+nav ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+nav ul li a {
+    color: #080404;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+    transform: scale(1.1);
+}
+
+.btn {
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+}
+
+.main-sobre {
+    display: flex;
+    flex-direction: column; /* Alinha verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center; /* Centraliza texto */
+    margin-top: 25px; /* Espaçamento acima do conteúdo */
+}
+
+.profile-pic {
+    border-radius: 50%; /* Torna a imagem redonda */
+    width: 200px; /* Ajuste o tamanho da imagem */
+    height: auto;
+    margin-bottom: 30px; /* Espaçamento abaixo da imagem */
+}
+
+.text-sobre {
+    max-width: 600px; /* Limita a largura do texto */
+}
+
+.text-sobre h2 {
+    color: #080808;
+    font-size: 2.5rem; /* Ajusta o tamanho do título */
+    margin: 10px 0;
+}
+
+.text-sobre h5 {
+    color: #f9004d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.text-sobre p {
+    color: #333;
+    line-height: 1.6; /* Melhora a legibilidade do texto */
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 1020px) {
+    .background {
+        height: 100vh; /* Ajuste a altura para dispositivos menores */
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .btn {
+        padding: 5px 4px;
+        font-size: 12px;
+    }
+
+    .profile-pic {
+        width: 250px; /* Ajuste o tamanho da imagem para dispositivos menores */
+    }
+
+    .text-sobre h2 {
+        font-size: 1rem; /* Ajusta o tamanho do título para dispositivos menores */
+        padding: 5px 10px;
+    }
+
+    .text-sobre h5 {
+        font-size: 1.10rem; /* Ajusta o tamanho do subtítulo para dispositivos menores */
+    }
+
+    .text-sobre p {
+        font-size: 0.9rem; /* Ajusta o tamanho do texto para dispositivos menores */
+    }
+    nav ul li {
+        padding: 5px 5px; /* Ajuste o padding para itens de menu em dispositivos menores */
+    }
+}
